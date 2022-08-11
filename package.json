@@ -1,0 +1,87 @@
+{
+  "homepage": "https://amoltafet.github.io/OvalPay",
+  "name": "oval-pay",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Ahmad Moltafet",
+  "license": "MIT",
+  "description": "ReactJS version of Oval Dashboard by Ahmad Moltafet",
+  "bugs": {
+    "url": "https://github.com/amoltafet/oval/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoltafet/oval.git"
+  },
+  "engines": {
+    "node": "14 || 15 || 16",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "@devexpress/dx-react-core": "^3.0.4",
+    "@devexpress/dx-react-scheduler": "^3.0.4",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.4",
+    "@emotion/cache": "11.7.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fullcalendar/core": "^5.11.0",
+    "@fullcalendar/list": "^5.11.0",
+    "@fullcalendar/react": "^5.11.1",
+    "@fullcalendar/timegrid": "^5.11.0",
+    "@mui/icons-material": "5.4.2",
+    "@mui/material": "^5.9.3",
+    "@mui/styled-engine": "5.4.2",
+    "@testing-library/jest-dom": "5.16.2",
+    "@testing-library/react": "12.1.3",
+    "@testing-library/user-event": "13.5.0",
+    "chart.js": "^3.4.1",
+    "chroma-js": "2.4.2",
+    "firebase": "^9.8.4",
+    "flowbite": "^1.5.1",
+    "fullcalendar": "^5.11.0",
+    "gh-pages": "^4.0.0",
+    "moment": "^2.29.4",
+    "prop-types": "15.8.1",
+    "react": "17.0.2",
+    "react-big-calendar": "^1.5.0",
+    "react-chartjs-2": "^3.0.4",
+    "react-countup": "6.1.1",
+    "react-dom": "17.0.2",
+    "react-flatpickr": "3.10.7",
+    "react-github-btn": "1.2.1",
+    "react-router-dom": "6.2.1",
+    "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.7",
+    "sass-loader": "^13.0.2",
+    "stylis": "4.0.13",
+    "stylis-plugin-rtl": "2.1.1",
+    "uuid": "8.3.2",
+    "web-vitals": "2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "install:peer-deps": "npm install --legacy-peer-deps"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.53.0",
+    "tailwindcss": "^3.1.6"
+  }
+}
